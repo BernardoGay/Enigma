@@ -1,0 +1,95 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:-box;
+}a
+
+/* Define o estilo básico do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo para o container principal */
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os cabeçalhos */
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #34495e;
+    margin: 1em 0 0.5em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.3em;
+}
+
+/* Estilo para os parágrafos */
+p {
+    margin: 0 0 1em;
+}
+
+/* Estilo para listas */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 0 0.5em;
+    padding: 0;
+    background: #ecf0f1;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove os paragrafos dentro da lista, pois isso pode criar espaçamentos indesejados */
+ul p {
+    display: none;
+}
+Ajustes no HTML:
+Remover parágrafos dentro das listas: No HTML original, você está usando <p> dentro de <ul>, o que não é uma prática recomendada. As listas já devem conter apenas <li>. Remova esses <p> ou ajuste seu conteúdo diretamente dentro dos <li>.
+Aqui está a versão ajustada do seu HTML:
+
+html
+Copiar código
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Enigma-Resumo</title>
+</head>
+<body>
+   <div>
+    <h1>Resumo do Filme Enigma</h1>
+    <h2>Introdução</h2>
+    <p>meu texto</p>
+    <h2>Elenco</h2>
+    <ul>
+        <li>Primeiro nome: ator - meu texto</li>
+        <li>Segundo nome: ator - meu texto</li>
+        <li>Terceiro nome: ator - meu texto</li>
+    </ul>
+    <h2>Desenvolvimento</h2>
+    <p>aqui vai meu texto</p>
+   </div> 
+</body>
+</html>
